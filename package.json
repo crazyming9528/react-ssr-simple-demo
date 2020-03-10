@@ -1,0 +1,27 @@
+{
+  "name": "ssr-react",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack&&node server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "jsx-loader": "^0.13.2",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
